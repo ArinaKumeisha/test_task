@@ -1,5 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
-  const items = document.querySelector('.collapsible');
+  const items = document.querySelectorAll('.collapsible');
   
   const handleToggle = (event) => {
     const parent = event.target.closest(".collapsible");
